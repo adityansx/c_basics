@@ -24,7 +24,7 @@ int main()
 	scanf("%f", &height);
 
 	printf("\nBase area of the cylinder: %f \n", circleArea(radius));
-	printf("Volume of the cylinder: z%f", cylinderVolume(radius, height));
+	printf("Volume of the cylinder: %f", cylinderVolume(radius, height));
 
 	return 0;
 }
